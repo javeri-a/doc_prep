@@ -141,6 +141,7 @@ async def main():
     print("User: What state is it in?")
     result = await Runner.run(agent, "What state is it in?", session=session)
     print("Assistant:", result.final_output)
+    print("hi")
 
 asyncio.run(main())
 
